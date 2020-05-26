@@ -1,0 +1,343 @@
+/* Color Scheme 
+Background:  #23282b
+White:  #ffffff
+Green:  #6f9642
+*/
+
+html, body{
+    margin: 0px;
+    padding: 0 0;
+    height: 100%;
+    width: 100%;
+    background-color: #23282b;
+}
+
+.container{
+    min-height: 100%;
+    position: relative;
+    padding: 0 0;
+}
+
+.content-container{
+    height: 100%;
+    padding-bottom: 60px;
+}
+
+/******************************************************************************************
+*NAV STYLES
+******************************************************************************************/
+
+header{
+    margin: 1%;
+    height: 100px;
+    width: 98%;
+}
+
+.header-container{
+    display: flex;
+    height: inherit;
+    width: inherit;
+}
+
+.header-logo{
+    background-color: aqua;
+    height: 100px;
+    width: 20%;
+}
+
+.header-spacer{
+    height: 100px;
+    width: 20%;
+}
+
+nav{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link{
+    margin: 0 auto;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link a{
+    color: #ffffff;
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.nav-link a:hover{
+    color: #6f9642;
+    border-color: #6f9642;
+}
+
+.nav-link-active{
+    margin: 0 auto;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link-active a{
+    color: #6f9642;
+    border-color: #6f9642;
+    border-bottom: 1px solid;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/******************************************************************************************
+*INDEX STYLES
+******************************************************************************************/
+.index-content{
+    margin: 2%;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.index-content h2{
+    margin: 2%;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.index-content p{
+    margin: 4%;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.index-content p a{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+/******************************************************************************************
+*PORTFOLIO STYLES
+******************************************************************************************/
+.portfolio-item{
+    background-color: #333333;
+    width: 96%;
+    margin: 2%;
+    display: flex;
+}
+
+.portfolio-img{
+    float: left;
+}
+
+.portfolio-summary{
+    color: #ffffff;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.portfolio-summary h3{
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.portfolio-summary p{
+    font-family: 'Raleway', sans-serif;
+}
+
+.portfolio-summary p a{
+    color: #ffffff;
+}
+
+/******************************************************************************************
+*RESUME STYLES
+******************************************************************************************/
+.resume-content{
+    min-height: 100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.resume-title{
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+
+.resume-section{
+    width: 100%;
+    color: #ffffff;
+}
+
+.resume-section h1{
+    font-family: 'Nunito Sans', sans-serif;
+    border-bottom: 1px solid #ffffff;
+}
+
+.resume-section h2{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.resume-section h3{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.resume-section p{
+    font-family: 'Raleway', sans-serif;
+}
+
+.resume-content iframe{
+    height: 95%;
+    width: 95%;
+}
+
+.download-button{
+    background-color: #6f9642;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: large;
+    text-align: center;
+}
+
+/******************************************************************************************
+*CONTACT STYLES
+******************************************************************************************/
+.contact-title{
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+
+.contact-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid-item{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    padding: 25px;
+    background-color: #333333;
+}
+
+.contact-icon{
+    text-align: center;
+    transition: color 0.2s;
+    padding-bottom: 20px;
+}
+
+.fa-stack{
+    color: #6f9642;
+}
+
+.contact-info{
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+}
+
+.contact-info a{
+    color: #ffffff;
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+    border-color: #ffffff;
+    transition: color 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.contact-info a:hover{
+    color: #6f9642;
+    border-color: #6f9642;
+}
+
+.contact-icon i:hover{
+    color: #6f9642;
+}
+
+/******************************************************************************************
+*FOOTER STYLES
+******************************************************************************************/
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: #ffffff;
+}
+
+.copyright-footer{
+    height: 100%;
+    width: 33%;
+    text-align: center;
+}
+
+.raspi-footer{
+    height: 100%;
+    width: 33%;
+    text-align: center;
+}
+
+.social-links{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-link{
+    height: 36px;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-link a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0%;
+    transition: color 0.2s;
+}
+
+
+.footer-link a:hover{
+    color: #6f9642;
+}
+
