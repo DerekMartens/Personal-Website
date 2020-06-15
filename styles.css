@@ -113,8 +113,28 @@ nav{
     font-family: 'Raleway', sans-serif;
 }
 
-.index-content h2{
+.welcome-container{
+    width: 100%;
+    display: inline-flex;
+}
+
+.welcome-text{
+    width: 50%;
+    padding: 1%;
+}
+
+.welcome-pic{
+    width: 50%;
+}
+
+.welcome-text h2{
     margin: 2%;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.welcome-text p{
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
     text-align: center;
